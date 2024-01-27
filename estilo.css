@@ -1,0 +1,88 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat';
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        /* *********************/
+        /* seccion I N I C I O */
+        /* *********************/
+        /*linear-gradient( rgba(40, 3, 251, 0.441),rgba(37, 0, 245, 0.391)),*/
+     
+        #inicio {
+           /* background:linear-gradient(yellow, black);*/
+            background-size: cover;
+            background-position: center center;
+            height:15vh;
+            
+        }
+       
+        #inicio .contenido header {
+            background-color:  #000000;
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+            top: 0;
+            font-size: 18px;
+        }
+        
+
+        #inicio .contenido header .contenido-header nav ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            padding: 10px 20px;
+            max-width: 1100px;
+
+        }
+        
+        
+        #inicio .contenido header .contenido-header nav ul li a {
+            text-decoration: none;
+            color: rgb(254, 254, 254);
+            margin: 0 12px;
+            font-weight: 500;
+            transition: .5s;
+
+        }
+        
+        #inicio .contenido header .contenido-header nav ul li a:hover {
+            color:#ffc107;
+            transform: scale(1.8, 1.8);
+            
+        }
+        
+        .img{
+            display: flex;
+            width: 600px;
+            height: 430px;
+        } 
+        .img img {
+            width: 0px;
+            flex-grow: 1;
+            object-fit: cover;
+            opacity: .8;
+            transition: .5s ease;
+        }
+
+        .img img:hover{
+            cursor:all-scroll;
+            width: 300px;
+            opacity: 1;
+            filter: contrast(120%);
+
+        }
+        .footer{
+            background-color: #000000;
+            color: aliceblue;
+            padding: 10px;
+            margin-bottom: 0;
+        }
